@@ -12,7 +12,8 @@ def get_transactions():
     return jsonify([
         {"id": 1, "amount": 200, "currency": "USD", "type": "deposit"},
         {"id": 2, "amount": -50, "currency": "USD", "type": "withdrawal"},
-        {"id": 3, "amount": 1200, "currency": "INR", "type": "deposit"}
+        {"id": 3, "amount": 1200, "currency": "INR", "type": "deposit"},
+        {"id": 4, "amount": 10000, "currency": "INR", "type": "deposit"}
     ])
 
 if __name__ == "__main__":
